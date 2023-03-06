@@ -1,0 +1,16 @@
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 600px;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+
