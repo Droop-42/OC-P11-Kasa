@@ -25,11 +25,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <Router>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route path="Home" element={<Home />}></Route>
-          <Route path="About" element={<About />}></Route>
-          <Route path="Card" element={<Card />}></Route>
+        <Route path="/" element={<Layout />} >
+          <Route path="Home" element={<Home />} />
+          <Route path="About" element={<About />} />
           <Route path='*' element={<Error404 />} />
+          <Route path="Card/:locId" element={<Card />}  />
         </Route>
       </Routes>
     </Router> 

@@ -1,24 +1,69 @@
-.card_min {
+.card {
     display: flex;
     flex-direction: column;
-    min-width: 240px;
-    height: 280px;
-    background-color: #FF6060;
+    align-items: center;
+    align-self: center;
+    margin: 0 5%;
     border-radius: 10px;
 }
-
-.card_min_txt {
+.logement_txt {
     display: flex;
-    color: white;
-    font-weight: 500;
-    padding: 10px;
-    width: 180px;
-
+    font-weight: 700;
+    margin-top: 20px;
+    color: #FF6060;
 }
 
-.card_min_img {
+.location_txt {
+    display: flex;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #FF6060;
+}
+
+.card_img {
     width: 100%;
-    height: 200px;
+    height: 415px;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
+    filter: grayscale(100%);
+}
+.owner_img {
+    /*width: 100%;*/
+    height: 41px;
+    object-fit: cover;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+.arrow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tagRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.owner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+    margin-top: 20px;
+    color: #FF6060;
+}
+
+.chevron {
+    position: relative;
+    bottom: 250px;
+    margin-bottom: -250px;
+    height: 80px;
 }

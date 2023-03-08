@@ -3,7 +3,7 @@
     flex-direction: column;
     min-width: 240px;
     height: 280px;
-    background-image: linear-gradient(#FF6060, rgb(167, 46, 25));
+    background-image: linear-gradient(#FF6060, #7a2c2c);
     border-radius: 10px;
 }
 
