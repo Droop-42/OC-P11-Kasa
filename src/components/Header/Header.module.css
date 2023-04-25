@@ -7,6 +7,7 @@ nav {
 .header {
     display: flex;
     margin-bottom: 30px;
+    margin-top: 20px;
     align-items: center;
     justify-content: space-between; 
     width: 90%;
@@ -16,5 +17,17 @@ nav {
 a:link {
     text-decoration: none;
     color: #FF6060;
-    padding: 5px;
+    padding: 5px 0 0 60px;
+    font-size: 24px;
+
+  }
+a:visited {
+  color: #FF6060;
+    text-decoration: none !important;
+}
+.active {
+    text-decoration: underline !important;
+  }
+  .logo{
+    height: 68px;
   }

@@ -1,12 +1,13 @@
 /* eslint-disable react/react-in-jsx-scope */
-import style from './Error404.module.css'
+import styles from './Error404.module.css'
+import { Link } from 'react-router-dom';
 
 export default function Error404() {
     return (
-        <div className={style.errorNum}>
-             <p className={style.number}>404</p>
-             <p>Oups! La page que vous demandez n&apos;existe pas.</p> 
-             <p>Retourner sur la page d’accueil</p> 
+        <div className={styles.errorPage}>
+             <p className={styles.number}>404</p>
+             <h1 className={styles.message}>Oups! La page que vous demandez n&apos;existe pas.</h1> 
+             <Link to="/home" className={styles.link}>Retourner sur la page d’accueil</Link> 
         </div>      
     )
 }

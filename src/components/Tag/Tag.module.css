@@ -4,8 +4,11 @@
     justify-content: center;
     color: white;
     border-radius: 10px;
-    width: 100px;
-    padding: 3px;
-    height: 20px;
+    width: 100%;
+    padding: 0  30px;
+    height: 25px;
     margin: 5px;
+    white-space: nowrap;
+    font-size: 14px;
+    align-items: center;
 }

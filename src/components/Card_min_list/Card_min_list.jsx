@@ -10,15 +10,14 @@ export default function Card_min_list() {
 
     return (
         <div className={styles.cardList}>
-            {logements_list.map(({id, title}) =>
+            {logements_list.map(({id, title, cover}) =>
                 <div key={id} >
                     <Card_min 
-                        //cover={cover}
+                        cover={cover}
                         titre={title}
                         id={id}  
                     />
-                </div>
-                
+                </div>    
             )}
         </div>     
     )
