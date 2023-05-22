@@ -15,3 +15,8 @@
     height: 36px;
 }
 
+@media (max-width: 800px) {
+    .foot {
+        font-size: 12px;
+    }
+}

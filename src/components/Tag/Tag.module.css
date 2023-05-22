@@ -4,11 +4,20 @@
     justify-content: center;
     color: white;
     border-radius: 10px;
-    width: 100%;
+    /*width: 100%;*/
     padding: 0  30px;
     height: 25px;
     margin: 5px;
     white-space: nowrap;
     font-size: 14px;
     align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .tag {
+        width: auto;
+        padding: 0  20px;
+        height: 18px;
+        font-size: 10px;
+    }
 }

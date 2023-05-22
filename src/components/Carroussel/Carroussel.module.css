@@ -40,3 +40,17 @@
     justify-self: center;
     font-size: 18px;
 }
+
+@media (max-width: 800px) {
+    .carroussel {
+        height: 255px;
+    }
+    .chevron {
+        bottom: 145px;
+        margin-bottom: -145px;
+        height: 40px;
+    }
+    .num {
+        display: none;
+    }
+}

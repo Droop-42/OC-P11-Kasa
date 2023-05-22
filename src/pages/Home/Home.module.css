@@ -33,3 +33,16 @@ body {
     margin-bottom: -20px;
 }
 
+@media (max-width: 800px) {
+    .homeTitle {
+        font-size: 18px;
+        bottom: 80px;
+    }
+    .homeImg {
+        height: 111px;
+        width: 90%;
+    }
+    .locations {
+        background-color: white;
+    }
+}

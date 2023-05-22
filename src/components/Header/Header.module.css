@@ -31,3 +31,15 @@ a:visited {
   .logo{
     height: 68px;
   }
+
+@media (max-width: 800px) {
+  .logo{
+    height: 47px;
+  }
+  a:link {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 5px 0 0 30px;
+  }
+    
+}

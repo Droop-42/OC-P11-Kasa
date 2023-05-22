@@ -23,6 +23,13 @@ p {
     font-size: 24px;
 }
 
-
+@media (max-width: 800px) {
+    .aboutImg {
+        height: 111px;
+    }
+    .aboutAccordions {
+        font-size: 12px;
+    }
+}
 
 

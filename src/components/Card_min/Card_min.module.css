@@ -32,3 +32,15 @@
     border-radius: 10px;
     mask-image: linear-gradient(to top, transparent 1%, black 30%);
 }
+
+@media (max-width: 800px) {
+    .card_min {
+        display: flex;
+        flex-direction: column;
+        width: 335px;
+        height: 255px;
+        /*background-image: linear-gradient(#FF6060, #7a2c2c);*/
+        background-color: rgb(34, 34, 34);
+        border-radius: 10px;
+    }
+}
